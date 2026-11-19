@@ -7,7 +7,7 @@ enum GamePhase {
     case idle, playing, over
 }
 
-struct ContentView: View {
+struct TapFrenzyView: View {
     // Step 3: score state
     @State private var score = 0
     // Step 4: countdown
@@ -192,5 +192,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    TapFrenzyView()
 }
